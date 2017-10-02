@@ -1,0 +1,8 @@
+.appContainer {
+  display: flex;
+  background: linear-gradient(to left bottom, rgb(232, 82, 122) 0%, rgb(232, 131, 122) 100%);
+  width: 100vh;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
