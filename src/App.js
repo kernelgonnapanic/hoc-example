@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-import ComponentA from './ComponentA';
+import PageA from './PageA';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="appContainer">
-        <ComponentA />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="appContainer">
+    <PageA />
+  </div>
+);
 
 export default App;
