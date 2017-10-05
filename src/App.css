@@ -37,3 +37,11 @@
   overflow: hidden;
   color: white;
 }
+
+.headerBlue {
+  background-color: #34A7CC;
+}
+
+.headerGreen {
+  background-color: #1BB22F;
+}
