@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { names } from './fakeData.js';
+import { names } from '../fakeData.js';
 
 import ListItem from './ListItem';
 
-const ComponentA = () =>(
+const List = () =>(
   <div>
     <img src="https://unsplash.it/400/300" alt="obrazunio" />
     {
@@ -15,4 +15,4 @@ const ComponentA = () =>(
   </div>
 );
 
-export default ComponentA;
+export default List;

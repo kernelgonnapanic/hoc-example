@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import DummyPage from './DummyPage';
-import PageWithHoc from './PageWithHoc';
-import PageWithRenderCallback from './PageWithRenderCallback';
+import DummyPage from './pages/DummyPage';
+import PageWithHoc from './pages/PageWithHoc';
+import PageWithRenderCallback from './pages/PageWithRenderCallback';
 
 const App = () => (
   <div className="appContainer">
     <DummyPage />
-    {/* <PageWithHoc /> */}
-    {/* <PageWithRenderCallback /> */}
+    <PageWithHoc />
+    <PageWithRenderCallback />
   </div>
 );
 

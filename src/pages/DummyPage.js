@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Header from './Header';
-import ComponentA from './ComponentA';
+import Header from '../components/Header';
+import List from '../components/List';
 
 class DummyPage extends Component {
   constructor() {
@@ -34,7 +34,7 @@ class DummyPage extends Component {
           opacity={this.calculateOpacity()}
           text="Dummy page"
         />
-        <ComponentA  />
+        <List />
       </div>
     );
   }

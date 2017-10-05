@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './Header';
-import ComponentA from './ComponentA';
-import ScrollViewWithAnimatedHeader from './ScrollViewWithAnimatedHeader';
+import Header from '../components/Header';
+import List from '../components/List';
+import ScrollViewWithAnimatedHeader from '../enhancers/ScrollViewWithAnimatedHeader';
 
 const PageWithRenderCallback = ({ opacity }) => (
   <ScrollViewWithAnimatedHeader>
@@ -14,7 +14,7 @@ const PageWithRenderCallback = ({ opacity }) => (
             opacity={opacity}
             text="Page with render callback"
           />
-          <ComponentA/>
+          <List/>
         </div>
       )
     }

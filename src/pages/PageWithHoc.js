@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './Header';
-import ComponentA from './ComponentA';
-import withAnimatedHeader from './withAnimatedHeader';
+import Header from '../components/Header';
+import List from '../components/List';
+import withAnimatedHeader from '../enhancers/withAnimatedHeader';
 
 const PageWithHoc = ({ opacity }) => (
   <div>
@@ -11,7 +11,7 @@ const PageWithHoc = ({ opacity }) => (
       opacity={opacity}
       text="Page with HOC"
     />
-    <ComponentA/>
+    <List/>
   </div>
 );
 
