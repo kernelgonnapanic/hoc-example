@@ -1,1 +1,1 @@
-A simple example - how you can use HOC to make your React app more DRY
+How you can make your React app more DRY using HOC or render callbacks?
