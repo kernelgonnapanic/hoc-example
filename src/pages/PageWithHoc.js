@@ -11,7 +11,7 @@ const PageWithHoc = ({ opacity }) => (
       opacity={opacity}
       text="Page with HOC"
     />
-    <List/>
+    <List type="hoc"/>
   </div>
 );
 

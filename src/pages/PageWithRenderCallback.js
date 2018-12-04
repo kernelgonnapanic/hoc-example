@@ -14,7 +14,7 @@ const PageWithRenderCallback = ({ opacity }) => (
             opacity={opacity}
             text="Page with render callback"
           />
-          <List/>
+          <List type="render callback" />
         </div>
       )
     }
